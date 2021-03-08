@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .acb30a2d-ffcd-4b44-8f66-734a2d22a1f4 {
+        fill: none;
+      }
+
+      .f1e7314c-d399-4563-91e9-e7af07cf891d {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <title>close</title>
+  <g id="dd957b74-a2a1-4db8-8b9e-b4d256cb5765" data-name="Layer 2">
+    <g id="577f7c62-5f53-482f-a715-cf5e39403165" data-name="Layer 1">
+      <g>
+        <rect fill="none" width="24" height="24"/>
+        <rect fill="#fff" x="2" y="11" width="20" height="2" transform="translate(12 -4.97) rotate(45)"/>
+        <rect fill="#fff" x="2" y="11" width="20" height="2" transform="translate(28.97 12) rotate(135)"/>
+      </g>
+    </g>
+  </g>
+</svg>

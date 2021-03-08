@@ -1,0 +1,157 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+.vue-map-container {
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.map-marker {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 0px 2px 0px #000000;
+  box-shadow: 0px 0px 2px 0px #000000;
+}
+
+.filter {
+  z-index: 999;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+}
+
+.details {
+  margin: 0px;
+  width: 450px;
+  z-index: 999;
+  background-color: #fff;
+  
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ 
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .details {
+    width:100%;
+  }
+}
+
+.gray {
+  background-color: #d3d3d3;
+}
+
+.green {
+  background-color: #42b983;
+}
+
+.details .detail-header {
+  padding: 15px;
+  background-color: #42b983;
+  overflow: hidden;
+}
+
+.details .detail-header .detail-title {
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: bolder;
+}
+
+.detail-body{
+  padding: 3px 15px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.detail-park-text {
+  color: #000;
+  font-size: 16px;
+    
+}
+
+.detail-park-text b{
+  font-size: 18px;
+}
+
+.detail-is-paid{
+  color: #000;
+  font-size: 14px;
+  line-height: 15px;
+  
+}
+
+.icon {
+  width: 30px;
+  margin-right:7px;
+}
+
+.icon-1x{
+  width: 20px;
+  margin-right:7px;
+}
+.icon-0x{
+  width: 15px;
+  margin-right:7px;
+}
+
+.get-address{
+  text-decoration: underline;
+  color:#000;
+  cursor: pointer;
+}
+
+.get-address:hover{
+  
+  color:#f3f3f3;
+}
+
+.find-my-location{
+  z-index: 999;
+  font-size: 12px;
+  position:absolute;
+  bottom: 200px;
+  right: 15px;
+  text-align: center;
+  animation: pulse 2s infinite;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.85);
+		
+	}
+
+	50% {
+		transform: scale(1);
+		
+	}
+
+	100% {
+		transform: scale(0.85);
+		
+	}
+}
